@@ -60,6 +60,11 @@
   [[paper](https://ieeexplore.ieee.org/abstract/document/10820018)]`Hybrid transformer, Adaptive content and position embedding`
 
 ## [TGRS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36)
+### 2025
+- **SSTCF:** Xiong F, Sun Y, Zhou J, et al. <b>2025</b>
+  "Spatial-Spectral-Temporal Correlation Filter for Hyperspectral Object Tracking."
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10904928)] `spatial-spectral histogram, low-rank-temporal constraint`
+
 ### 2024
 - **HDSP:** Yao R, Zhang L, Zhou Y, et al. 
   "Hyperspectral Object Tracking With Dual-Stream Prompt"
@@ -182,7 +187,7 @@
   "Multi-domain universal representation learning for hyperspectral object tracking"
   [[paper](https://www.sciencedirect.com/science/article/pii/S0031320325000494)] [[code](https://github.com/hscv/DaSSP-Net)] `Domain-specific information, Prompt Learning`
 - **SASU-Net:** Zhao D, Zhang H, Huang K, et al. [ESA](https://www.sciencedirect.com/journal/expert-systems-with-applications), <b>2025</b>
-"Hyperspectralvideotrackerbasedonspectraladaptive aggregation weighting and scale updating"
+"Hyperspectral video tracker based on spectral adaptive aggregation weighting and scale updating"
   [[paper](https://www.sciencedirect.com/science/article/pii/S0957417425003434)] [[code](https://github.com/CodeMANz11/SASUNet)] `Spectral prior mask, SV`
 - **SSTtrack:** Chen, Yuzeng, Yuan, Qiangqiang, et al.[Information Fusion](https://www.sciencedirect.com/journal/information-fusion), <b>2024</b>
   "SSTtrack: A Unified Hyperspectral Video Tracking Framework Via Modeling Spectral-Spatial-Temporal Conditions."
@@ -259,22 +264,26 @@
 # Benchmark Results
 * **Tracking results on HOTC2020:**
 
-    | Tracker      | AUC   | DP@20 | Tracker | AUC | DP |
+    | Tracker      | AUC   | DP@20 | Tracker | AUC | DP@20 |
     |:-------------|:-----:|:-----:|:----:|:-----------|:-----------|
-    | **MFI**  | 0.601 | 0.893 | **TSCFW**  | 0.597  | 0.882 |
-    |**MHT**|  0.586  |  0.882  |**DeepHKCF**| 0.303 |  0.541  |
-    |**CNHT**|  0.171  |  0.335  |****|  |    |
+    | **SSTCF++**  | 0.615  | 0.903 |**MFI**  | 0.601 | 0.893 | 
+    |**TSCFW**  | 0.597  | 0.882 |**MHT**|  0.586  |  0.882  |
+    |**DeepHKCF**| 0.303 |  0.541  |**CNHT**|  0.171  |  0.335  |
 
-    | Tracker      | AUC   | DP@20 | Tracker | AUC | DP |
+    | Tracker      | AUC   | DP@20 | Tracker | AUC | DP@20 |
     |:-------------|:-----:|:-----:|:----:|:-----------|:-----------|
-    | **Hy-Hyper**   | 0.728 | 0.972 | **SSTtrack**    | 0.713 | 0.956  | 
-    | **MMF-Net**    | 0.691 | 0.932 | **SENSE**    | 0.689 | 0.951  |
-    | **HA-Net**  | 0.688 | 0.946 |**SPIRIT**    | 0.679| 0.925 | 
-    | **SiamHYPER**    | 0.678| 0.945 |  **SEE-Net** | 0.666 | 0.933 |
-    | **TBR-Net**  | 0.660 | 0.920 | **PHTrack**  | 0.660 | 0.919 |
-    |**SiamBAG**  | 0.638 | 0.902 | **SiamOHOT**    | 0.634| 0.883   | 
-    | **?BAHT**    | 0.632| 0.905 | **SST-Net**    | 0.622 | 0.916 | 
-    | **?SiamHT**    | 0.621 | 0.878  | **BAE-Net**    | 0.606 | 0.878 | 
+    | **Hy-Tracker**   | 0.722 | 0.972 | **SSTtrack**    | 0.713 | 0.956  | 
+    | **HotMoE**    | 0.704 | 0.935 | **MMF-Net**    | 0.691 | 0.932|
+    | **SENSE**    | 0.689 | 0.951  |    **HA-Net**  | 0.688 | 0.946 |
+    | **HDSP**    | 0.687| 0.947     |**DaSSP-Net**    | 0.682| 0.917 |
+    | **SPIRIT**    | 0.679| 0.925 | **SiamHYPER**    | 0.678| 0.945 |  
+    | **ViPT** | 0.667 | 0.910 |    **SEE-Net** | 0.666 | 0.933     |  
+    |  **PHTrack**  | 0.660 | 0.919 | **TBR-Net**  | 0.660 | 0.920 |  
+    | **SiamCAT**  | 0.646 | 0.907 | **SASU-Net**  | 0.641 | 0.901 |   
+    | **SiamBAG**  | 0.638 | 0.902 | **SiamOHOT**    | 0.634| 0.883   |
+    | **?BAHT**    | 0.632| 0.905 |  **SST-Net**    | 0.622 | 0.916 |  
+    | **?SiamHT**    | 0.621 | 0.878  | **BAE-Net**    | 0.606 | 0.878 |
+    | **AD-SiamRPN**    | 0.576 | 0.861 |**Trans-DAT**    | 0.532 | 0.769 |
   
 
 * **Tracking results on HOTC2023:**
@@ -293,9 +302,8 @@
 * "?" means no public code or results, the results provided by the original paper are used.
 * This section presents the majority of classic hyperspectral target tracking results, mainly tested based on public code and results. If you have any questions or modification requests, or any suggestions for the results presentation, please contact ZhenxingWu@njust.edu.cn.
 
-
 # Acknowledgment
-* We thank for [[Paper list for hyperspectral object tracking](https://github.com/maynardsd/Hyperspectral-object-tracking-paperlist)] and [[Visual-Hyperspectral-Tracking-Development](https://github.com/YZCU/Visual-Hyperspectral-Tracking-Development)] library, which served as a valuable resource in compiling and organizing additional relevant studies in hyperspectral target tracking.
+* We thank for [[Paper list for hyperspectral object tracking](https://github.com/maynardsd/Hyperspectral-object-tracking-paperlist)] and [[Visual-Hyperspectral-Tracking-Development](https://github.com/YZCU/Visual-Hyperspectral-Tracking-Development)] library, which served as a valuable resource in compiling and organizing additional relevant studies in hyperspectral object tracking.
 <!-- * In addition, a more complete list of paper mind maps is provided, reference link [[Paper list summary]](https://coggle.it/diagram/ZxDapfb3UX4YECz2/t/tracker) -->
 
 
