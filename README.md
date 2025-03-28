@@ -8,6 +8,10 @@
   "Visual Prompt Multi-Modal Tracking."
   [[paper](https://ieeexplore.ieee.org/document/10205483)] [[code](https://github.com/laisimiao/ViPT)]
 
+- **HyperFree** Jingtao Li, Yingyi Liu, Yanfei Zhong, et al. <b>CVPR, 2025</b>
+  "HyperFree: A Channel-adaptive and Tuning-free Foundation Model for Hyperspectral Remote Sensing Imagery"
+  [[paper](https://rsidea.whu.edu.cn/HyperFree.pdf)] [[code](https://github.com/Jingtao-Li-CVer/HyperFree)][[website](https://rsidea.whu.edu.cn/hyperfree.htm)]
+  
 - **SEE-Net:** Z. Li, F. Xiong, J. Zhou, et al. <b>TIP 2023</b>,
   "Learning a Deep Ensemble Network With Band Importance for Hyperspectral Object Tracking."
   [[paper](https://ieeexplore.ieee.org/document/10128966)] [[code](https://github.com/hscv/SEE-Net)] 
@@ -21,6 +25,8 @@
   [[paper](https://ieeexplore.ieee.org/abstract/document/9933370)] [[result](https://github.com/zhenliuzhenqi/HOT)]
 
 
+
+
 ## Overview
 - **Review:** Qian, Kun, Shen, Jianlu, Wang, Shiqing, Sun, Wenjun. [Multimedia Tools and Applications](https://link.springer.com/journal/11042), <b>2023</b                 >
   "Recent advances in object tracking using hyperspectral videos: a survey. " 
@@ -31,9 +37,15 @@
   [[paper]](https://www.mdpi.com/2072-4292/17/4/645)
 
 ## CVPR, ICCV, ECCV, IJCV
+- **HyperFree** Jingtao Li, Yingyi Liu, Yanfei Zhong, et al. <b>CVPR, 2025</b>
+  "HyperFree: A Channel-adaptive and Tuning-free Foundation Model for Hyperspectral Remote Sensing Imagery"
+  [[paper](https://rsidea.whu.edu.cn/HyperFree.pdf)] [[code](https://github.com/Jingtao-Li-CVer/HyperFree)][[website](https://rsidea.whu.edu.cn/hyperfree.htm)]`Channel-adaptive,Tuning-free Foundation Model`
+
 - **ViPT:** Zhu, Jiawen, Lai, Simiao, Chen, Xin, et al. <b>CVPR, 2023</b>
   "Visual Prompt Multi-Modal Tracking."
   [[paper](https://ieeexplore.ieee.org/document/10205483)] [[code](https://github.com/laisimiao/ViPT)]`Prompt learning`
+
+
 
 ## IEEE Transaction
 ## [TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
