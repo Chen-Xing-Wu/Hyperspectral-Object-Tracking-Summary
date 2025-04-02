@@ -8,6 +8,10 @@
   "Visual Prompt Multi-Modal Tracking."  
   [[paper](https://ieeexplore.ieee.org/document/10205483)] [[code](https://github.com/laisimiao/ViPT)]
 
+- **MUST** Qin H, Xu T, Li T, et al. <b>CVPR, 2025</b>  
+  "MUST: The First Dataset and Unified Framework for Multispectral UAV Single Object Tracking"  
+  [[paper](https://arxiv.org/pdf/2503.17699)][[code](https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking)] 
+
 - **HyperFree:** Jingtao Li, Yingyi Liu, Yanfei Zhong, et al. <b>CVPR, 2025</b>  
   "HyperFree: A Channel-adaptive and Tuning-free Foundation Model for Hyperspectral Remote Sensing Imagery"  
   [[paper](https://rsidea.whu.edu.cn/HyperFree.pdf)] [[code](https://github.com/Jingtao-Li-CVer/HyperFree)][[website](https://rsidea.whu.edu.cn/hyperfree.htm)]
@@ -26,7 +30,6 @@
 
 
 
-
 ## Overview
 - **Review:** Qian, Kun, Shen, Jianlu, Wang, Shiqing, Sun, Wenjun. [Multimedia Tools and Applications](https://link.springer.com/journal/11042), <b>2023</b>  
   "Recent advances in object tracking using hyperspectral videos: a survey. "  
@@ -37,7 +40,12 @@
   [[paper]](https://www.mdpi.com/2072-4292/17/4/645)
 
 ## CVPR, ICCV, ECCV, IJCV
-- **HyperFree** Jingtao Li, Yingyi Liu, Yanfei Zhong, et al. <b>CVPR, 2025</b>  
+- **MUST** Qin H, Xu T, Li T, et al. <b>CVPR, 2025</b>  
+  "MUST: The First Dataset and Unified Framework for Multispectral UAV Single Object Tracking"  
+  [[paper](https://arxiv.org/pdf/2503.17699)][[code](https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking)] 
+  `Multispectral UAV SOT Dataset`
+
+- **HyperFree:** Jingtao Li, Yingyi Liu, Yanfei Zhong, et al. <b>CVPR, 2025</b>  
   "HyperFree: A Channel-adaptive and Tuning-free Foundation Model for Hyperspectral Remote Sensing Imagery"  
   [[paper](https://rsidea.whu.edu.cn/HyperFree.pdf)] [[code](https://github.com/Jingtao-Li-CVer/HyperFree)][[website](https://rsidea.whu.edu.cn/hyperfree.htm)]`Channel-adaptive,Tuning-free Foundation Model`
 
@@ -187,6 +195,9 @@
   [[paper](https://www.mdpi.com/2072-4292/15/7/1735)]  `Spatial and Spectral Feature branch, based TransT`
 
 ## [Arxiv](https://arxiv.org/)
+- **HyA-T** 
+"Hyperspectral Adapter for Object Tracking based on Hyperspectral Video"
+
 - **BihoT:** Wang H, Li W, Xia X G. <b>2024</b>  
   "A Large-Scale Dataset and Benchmark for Hyperspectral Camouflaged Object Tracking."   
   [[paper](https://arxiv.org/pdf/2408.12232)] `Benchmark Dataset`
@@ -261,6 +272,9 @@
 > 
 >**HOTC2024:** J. Zhou, F. Xiong, H. Q. Luong, M. Zahiri,R. Muszynski, W. Charle, Y. Zhong, P. Ghamisi, J. Chanussot.  
 [[project](https://www.hsitracking.com/)]
+
+>**MUST** Haolin Qin, Tingfa Xu†, Tianhao Li, Zhenxiang Chen, Tao Feng, Jianan Li† Beijing Institute of Technology  
+[[paper](https://arxiv.org/pdf/2503.17699)][[Dataset](https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking)] 
 
 >**MSSOT:** L. Chen, Y. Zhao, S. G. Kong. <b>2023</b>  
 "SFA-guided Mosaic Transformer for Tracking Small Objects in Snapshot Spectral imaging"  
