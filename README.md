@@ -109,7 +109,7 @@
 
 - **Hy-Tracker:** M. A. Islam, W. Xing, J. Zhou, et al.  
   "Hy-Tracker: A Novel Framework for Enhancing Efficiency and Accuracy of Object Tracking in Hyperspectral Videos."  
-  [[paper](https://ieeexplore.ieee.org/abstract/document/10569013)] `YOLO`
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10569013)][[code](https://github.com/aamin0102/HyTracker)] `YOLO`
 
 - **SiamCAT:** X. Jiang, X. Wang, C. Sun, et al.  
 "A Channel Adaptive Dual Siamese Network for Hyperspectral Object Tracking."  
@@ -132,6 +132,11 @@
   "SiamOHOT: A Lightweight Dual Siamese Network for Onboard Hyperspectral Object Tracking via Joint Spatial-Spectral Knowledge Distillation."  
   [[paper](https://ieeexplore.ieee.org/abstract/document/10225562)] `Knowledge distillation, Teacher-Student network`
 
+- **CBFF-Net:** Gao L, Liu P, Jiang Y, et al.  
+  "CBFF-Net: A New Framework for Efficient and Accurate Hyperspectral Object Tracking."  
+  [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10061231)] `Cross-band feature fusion`
+                                                                                                                                                          
+
 ### Before
 - **TSCFW:** Hou Z, Li W, Zhou J, et al. <b>2022</b>  
   "Spatial–spectral weighted and regularized tensor sparse correlation filter for object tracking in hyperspectral videos."   
@@ -151,7 +156,7 @@
 
 - **BABS:** Islam M A, Zhou J, Zhang W, et al. <b>2023</b>  
   "Background-Aware Band Selection for Object Tracking in Hyperspectral Videos."  
-  [[paper](https://ieeexplore.ieee.org/document/10288536)] `Band Selection [local<->neighborhood region Dissimilarity Score], VITAL`
+  [[paper](https://ieeexplore.ieee.org/document/10288536)][[code](https://github.com/aamin0102/BABS)] `Band Selection [local<->neighborhood region Dissimilarity Score], VITAL`
 
 - **BAHT:** Tang Y, Liu Y, Ji L, et al. <b>2022</b>  
   "Robust hyperspectral object tracking by exploiting background-aware spectral information with band selection network."  
@@ -161,6 +166,9 @@
 - **VP-HOT:** Xie S, Li J, Zhao L, et al <b>2023</b>  
   "VP-HOT: Visual Prompt for Hyperspectral Object Tracking. "  
   [[paper](https://ieeexplore.ieee.org/abstract/document/10431061)]  `Prompt learning`
+- **Helios:** Muszyński R, Luong H <b>2023</b>  
+  "Helios: Hyperspectral Hindsight Ostracker."  
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10430711)][[code](https://github.com/ramusz1/helios)]  `OSTrack, BandSelection(XGBoost)`
 - **SST-Net:** Z. Li, X. Ye, F. Xiong, et al. <b>2021</b>  
   "Spectral-Spatial-Temporal Attention Network for Hyperspectral Tracking."  
   [[paper](https://ieeexplore.ieee.org/document/9484032)] `VITAL, Spatial(Conv)-Spectral(BAE)-Temporal(RNN)`
@@ -250,6 +258,11 @@
   "Histograms of oriented mosaic gradients for snapshot spectral image description."  
   [[paper](https://www.sciencedirect.com/science/article/pii/S0924271621002860)] [[code](https://github.com/polwork/HOMG)]  `Datasets snapshot`
 
+- **SiamF** Z. Li, F. Xiong, J. Zhou, et al. [ICASSP](https://ieeexplore.ieee.org/xpl/conhome/9745891/proceeding), <b>2022</b>  
+  "Material-Guided Siamese Fusion Network for Hyperspectral Object Tracking"  
+  [[paper](https://ieeexplore.ieee.org/abstract/document/9746089)] `Fusion`
+
+
 - **BAE-Net** Z. Li, F. Xiong, J. Zhou, et al. [ICIP](https://ieeexplore.ieee.org/xpl/conhome/9184803/proceeding), <b>2020</b>  
   "A Band Attention Aware Ensemble Network for Hyperspectral Object Tracking"  
   [[paper](https://ieeexplore.ieee.org/abstract/document/9191105)] `Band Attention Aware Ensemble Network, Deep learning,  Band Selection`
@@ -289,42 +302,70 @@
 [[paper](https://arxiv.org/pdf/2408.12232)]
 
 # Benchmark Results
-* **Tracking results on HOTC2020:**
-
-    | Tracker      | AUC   | DP@20 | Tracker | AUC | DP@20 |
-    |:-------------|:-----:|:-----:|:----:|:-----------|:-----------|
-    | **SSTCF++**  | 0.615  | 0.903 |**MFI**  | 0.601 | 0.893 | 
-    |**TSCFW**  | 0.597  | 0.882 |**MHT**|  0.586  |  0.882  |
-    |**DeepHKCF**| 0.303 |  0.541  |**CNHT**|  0.171  |  0.335  |
-
-    | Tracker      | AUC   | DP@20 | Tracker | AUC | DP@20 |
-    |:-------------|:-----:|:-----:|:----:|:-----------|:-----------|
-    | **Hy-Tracker**   | 0.722 | 0.972 | **SSTtrack**    | 0.713 | 0.956  | 
-    | **HotMoE**    | 0.704 | 0.935 | **MMF-Net**    | 0.691 | 0.932|
-    | **SENSE**    | 0.689 | 0.951  |    **HA-Net**  | 0.688 | 0.946 |
-    | **HDSP**    | 0.687| 0.947     |**DaSSP-Net**    | 0.682| 0.917 |
-    | **SPIRIT**    | 0.679| 0.925 | **SiamHYPER**    | 0.678| 0.945 |  
-    | **ViPT** | 0.667 | 0.910 |    **SEE-Net** | 0.666 | 0.933     |  
-    |  **PHTrack**  | 0.660 | 0.919 | **TBR-Net**  | 0.660 | 0.920 |  
-    | **SiamCAT**  | 0.646 | 0.907 | **SASU-Net**  | 0.641 | 0.901 |   
-    | **SiamBAG**  | 0.638 | 0.902 | **SiamOHOT**    | 0.634| 0.883   |
-    | **?BAHT**    | 0.632| 0.905 |  **SST-Net**    | 0.622 | 0.916 |  
-    | **?SiamHT**    | 0.621 | 0.878  | **BAE-Net**    | 0.606 | 0.878 |
-    | **AD-SiamRPN**    | 0.576 | 0.861 |**Trans-DAT**    | 0.532 | 0.769 |
+## **Tracking results on HOTC2020:**
+* **Traditional Method**
+  | Tracker      | AUC   | DP@20 | Tracker | AUC | DP@20 |
+  |:-------------|:-----:|:-----:|:----:|:-----------|:-----------|
+  | **BABS**  | 0.617 | 0.901 | **SSTCF++**  | 0.615  | 0.903 |
+  |**MFI**  | 0.601 | 0.893 | **TSCFW**  | 0.597  | 0.882 |
+  |**MHT**|  0.586  |  0.882  | **DeepHKCF**| 0.303 |  0.541 | 
+  |**CNHT**|  0.171  |  0.335  |
+  |
+* **Deep Learning Method**
+  | Tracker      | AUC   | DP@20 | Tracker | AUC | DP@20 |
+  |:-------------|:-----:|:-----:|:----:|:-----------|:-----------|
+  | **Hy-Tracker**   | 0.722 | 0.972 | **SSTtrack**    | 0.713 | 0.956  | 
+  | **HotMoE**    | 0.704 | 0.935 | **MMF-Net**    | 0.691 | 0.932|
+  | **SENSE**    | 0.689 | 0.951  |    **HA-Net**  | 0.688 | 0.946 |
+  | **HDSP**    | 0.687| 0.947     |**DaSSP-Net**    | 0.682| 0.917 |
+  | **SPIRIT**    | 0.679| 0.925 | **SiamHYPER**    | 0.678| 0.945 |  
+  | **ViPT** | 0.667 | 0.910 |    **SEE-Net** | 0.666 | 0.933     |  
+  |  **PHTrack**  | 0.660 | 0.919 | **TBR-Net**  | 0.660 | 0.920 |  
+  | **SiamCAT**  | 0.646 | 0.907 | **SASU-Net**  | 0.641 | 0.901 |   
+  | **SiamBAG**  | 0.638 | 0.902 | **SiamOHOT**    | 0.634| 0.883   |
+  | **?BAHT**    | 0.632| 0.905 |  **SST-Net**    | 0.622 | 0.916 |  
+  | **?SiamHT**    | 0.621 | 0.878  | **BAE-Net**    | 0.606 | 0.878 |
+  | **AD-SiamRPN**    | 0.576 | 0.861 |**Trans-DAT**    | 0.532 | 0.769 |
+  |
   
 
-* **Tracking results on HOTC2023:**
+## **Tracking results on HOTC2023 Validation:**
 
 | Tracker   |Average-AUC | Average-DP   | VIS-AUC | VIS-DP@20 | RedNIR-AUC | RedNIR-DP@20     | NIR-AUC | NIR-DP@20  | 
-|------------|---------------|----------------|-------------------|-----|-----------------|-----|-----------------|-----|
-| **?VP-HOT**  | 0.667 | 0.877 | 0.667 | 0.895 | 0.540 | 0.709 | 0.715 | 0.910 |
-| **SSTtrack**  |0.626 | 0.818 | 0.657 | 0.872 | 0.400 | 0.499 | 0.660 | 0.854 |
-| **SiamCAT**  |0.604| 0.836 | 0.593 | 0.822 | 0.480 | 0.665 | 0.665 | 0.920 |
-| **SPIRIT**  |0.585 | 0.786 | 0.608 | 0.820 | 0.381 | 0.501 | 0.623 | 0.838 |
-| **Trans-DAT**  |0.573 | 0.782 | 0.512 | 0.721 | 0.537 | 0.715 | 0.681 | 0.900 | 
-| **SENSE**  | 0.559 | 0.766 | 0.608 | 0.826 | 0.394 | 0.500 | 0.545 | 0.771 |
-| **PHTrack**  |0.544 | 0.754 | 0.581 | 0.795 | 0.414 | 0.515 | 0.534 | 0.780 | 
+|---------------|---------|---------|---------|-----------|------------|-----------|------------|---------|
+| **DaSSP-Net** | 0.678   | 0.878   | 0.654   | 0.865     | 0.584      | 0.731     | 0.750      | 0.952   |
+| **ViPT**      | 0.668   | 0.871   | 0.641   | 0.858     | 0.563      | 0.709     | 0.748      | 0.950   |
+| **?VP-HOT**   | 0.667   | 0.877   | 0.667   | 0.895     | 0.540      | 0.709     | 0.715      | 0.910   |
+| **HyTracker** | 0.644   | 0.847   | 0.684   | 0.900     | 0.510      | 0.663     | 0.634      | 0.832   |
+| **SSTtrack**  | 0.626   | 0.818   | 0.657   | 0.872     | 0.400      | 0.499     | 0.660      | 0.854   |
+| **SiamCAT**   | 0.605   | 0.838   | 0.596   | 0.826     | 0.479      | 0.665     | 0.665      | 0.920   |
+| **MMF_Net**   | 0.595   | 0.797   | 0.613   | 0.815     | 0.324      | 0.410     | 0.666      | 0.910   |
+| **SPIRIT**    | 0.585   | 0.786   | 0.608   | 0.820     | 0.381      | 0.501     | 0.623      | 0.838   |
+| **TransDAT**  | 0.573   | 0.782   | 0.511   | 0.721     | 0.535      | 0.715     | 0.683      | 0.900   |
+| **SENSE**     | 0.559   | 0.766   | 0.608   | 0.826     | 0.394      | 0.500     | 0.545      | 0.771   |
+| **PHTrack**   | 0.544   | 0.754   | 0.581   | 0.795     | 0.414      | 0.515     | 0.534      | 0.780   |
+| **SEE-Net**   | 0.519   | 0.763   | 0.593   | 0.813     | 0.359      | 0.491     | 0.465      | 0.785   |
+| **BABS**      | 0.517   | 0.770   | 0.560   | 0.808     | 0.399      | 0.503     | 0.494      | 0.811   |
+| **SiamBAG**   | 0.512   | 0.739   | 0.566   | 0.789     | 0.363      | 0.493     | 0.484      | 0.753   |
+| **TSCFW**     | 0.469   | 0.703   | 0.536   | 0.765     | 0.278      | 0.396     | 0.437      | 0.722   |
+|
 
+## **Tracking results on HOTC2024 Validation:**
+
+| Tracker       |Average-AUC | Average-DP   | VIS-AUC | VIS-DP@20 | RedNIR-AUC | RedNIR-DP@20     | NIR-AUC | NIR-DP@20  | 
+|---------------|---------|---------|---------|-----------|------------|-----------|------------|---------|
+| **Helios**    | 0.577   | 0.728   | 0.570   | 0.724     | 0.469      | 0.598     | 0.664      | 0.824   |
+| **ViPT**      | 0.576   | 0.739   | 0.547   | 0.716     | 0.503      | 0.650     | 0.691      | 0.851   |
+| **HyTracker** | 0.536   | 0.692   | 0.488   | 0.654     | 0.431      | 0.573     | 0.713      | 0.858   |
+| **MMF-Net**   | 0.527   | 0.683   | 0.488   | 0.645     | 0.395      | 0.521     | 0.701      | 0.875   |
+| **SSTTtrack** | 0.491   | 0.616   | 0.386   | 0.482     | 0.512      | 0.659     | 0.712      | 0.888   |
+| **Trans-DAT** | 0.453   | 0.587   | 0.401   | 0.524     | 0.428      | 0.547     | 0.587      | 0.753   |
+| **SEE-Net**   | 0.426   | 0.607   | 0.400   | 0.560     | 0.387      | 0.521     | 0.509      | 0.769   |
+| **SPIRIT**    | 0.418   | 0.534   | 0.323   | 0.409     | 0.379      | 0.516     | 0.655      | 0.823   |
+| **BABS**      | 0.384   | 0.576   | 0.347   | 0.508     | 0.315      | 0.427     | 0.513      | 0.828   |
+| **SENSE**     | 0.379   | 0.504   | 0.301   | 0.398     | 0.367      | 0.465     | 0.561      | 0.765   |
+| **PHTrack**   | 0.356   | 0.485   | 0.306   | 0.411     | 0.264      | 0.364     | 0.526      | 0.731   |
+|
     
 * "?" means no public code or results, the results provided by the original paper are used.
 * This section presents the majority of classic hyperspectral target tracking results, mainly tested based on public code and results. If you have any questions or modification requests, or any suggestions for the results presentation, please contact ZhenxingWu@njust.edu.cn.
