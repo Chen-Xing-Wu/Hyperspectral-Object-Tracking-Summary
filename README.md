@@ -57,9 +57,9 @@
 
 ## IEEE Transaction
 ## [TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
-- **SpectralTrack** Chen Y, Yuan Q, Xie H, et al. <b>2025</b> 
-  "Hyperspectral Video Tracking with Spectral-Spatial Fusion and Memory Enhancement"
-  [[paper](https://ieeexplore.ieee.org/abstract/document/11007172)] [[code](https://github.com/YZCU/SpectralTrack)]
+- **SpectralTrack** Chen Y, Yuan Q, Xie H, et al. <b>2025</b>   
+  "Hyperspectral Video Tracking with Spectral-Spatial Fusion and Memory Enhancement"   
+  [[paper](https://ieeexplore.ieee.org/abstract/document/11007172)] [[code](https://github.com/YZCU/SpectralTrack)] `FFT(Band importance), Spectral-Spatial token stage fusion`
 - **SEE-Net:** Z. Li, F. Xiong, J. Zhou, et al. <b>2023</b>  
   "Learning a Deep Ensemble Network With Band Importance for Hyperspectral Object Tracking."  
   [[paper](https://ieeexplore.ieee.org/document/10128966)] [[code](https://github.com/hscv/SEE-Net)] `Spectral Self-expressive Module, Decision-level fusion`
@@ -219,7 +219,7 @@
 
 ## Others
 - **ProFiT:** Chen Y, Yuan Q, Tang Y, et al. [ISPRS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing) , <b>2025</b>   
-"ProFiT: A prompt-guided frequency-aware filtering and template-enhanced interaction framework for hyperspectral video tracking"
+"ProFiT: A prompt-guided frequency-aware filtering and template-enhanced interaction framework for hyperspectral video tracking"  
 [[paper](https://www.sciencedirect.com/science/article/pii/S0924271625001893)] [[code](https://github.com/YZCU/ProFiT)] `Frequency-aware filtering`  
 - **DaSSP-Net:** Li Z, Xiong F, Lu J, et al. [PR](https://www.sciencedirect.com/journal/pattern-recognition), <b>2025</b>  
   "Multi-domain universal representation learning for hyperspectral object tracking"  
