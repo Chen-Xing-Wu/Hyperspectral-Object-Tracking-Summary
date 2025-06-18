@@ -86,7 +86,11 @@
 ### 2025
 - **SSTCF:** Xiong F, Sun Y, Zhou J, et al. <b>2025</b>  
   "Spatial-Spectral-Temporal Correlation Filter for Hyperspectral Object Tracking."  
-  [[paper](https://ieeexplore.ieee.org/abstract/document/10904928)] `spatial-spectral histogram, low-rank-temporal constraint`
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10904928)] `spatial-spectral histogram, low-rank-temporal constraint`  
+
+- **UBSTrack：** Islam M A, Zhou J, Xing W, et al. <b>2025</b>  
+"UBSTrack: Unified Band Selection and Multi-Model Ensemble for Hyperspectral Object Tracking" 
+[[paper](https://ieeexplore.ieee.org/abstract/document/11007116)][[results](https://github.com/aamin0102/UBSTrack/)]  `local and global attention-based band selection, Detector`    
 
 ### 2024
 - **HDSP:** Yao R, Zhang L, Zhou Y, et al.  
@@ -224,6 +228,12 @@
 - **DaSSP-Net:** Li Z, Xiong F, Lu J, et al. [PR](https://www.sciencedirect.com/journal/pattern-recognition), <b>2025</b>  
   "Multi-domain universal representation learning for hyperspectral object tracking"  
   [[paper](https://www.sciencedirect.com/science/article/pii/S0031320325000494)] [[code](https://github.com/hscv/DaSSP-Net)] `Domain-specific information, Prompt Learning`
+- **HOPL** Zhang L, Yao R, Zhang Y, et al. [ACM TOMM](https://dl.acm.org/journal/tomm),b>2025</b>   
+"Historical Object-Aware Prompt Learning for Universal Hyperspectral Object Tracking"
+[[paper](https://dl.acm.org/doi/pdf/10.1145/3736581)][[results](https://github.com/rayyao/HOPL)] `Historical Prompt`   
+- **SP-HST** Gao L, Chen L, Jiang Y, et al. [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), <b>2025</b>   
+"Hyperspectral Object Tracking with Spectral Information Prompt"    
+[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11029092)][[code](https://github.com/lgao001/SP-HST)] `Spectral Prompt`
 - **SASU-Net:** Zhao D, Zhang H, Huang K, et al. [ESA](https://www.sciencedirect.com/journal/expert-systems-with-applications), <b>2025</b>  
 "Hyperspectral video tracker based on spectral adaptive aggregation weighting and scale updating"  
   [[paper](https://www.sciencedirect.com/science/article/pii/S0957417425003434)] [[code](https://github.com/CodeMANz11/SASUNet)] `Spectral prior mask, SV`
@@ -237,7 +247,6 @@
 - **Trans-DAT:** Y. Wu, L. Jiao, X. Liu, et al. [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), <b>2024</b>  
   "Domain Adaptation-aware Transformer for Hyperspectral Object Tracking."  
   [[paper](https://ieeexplore.ieee.org/document/10491347)] [[code](https://github.com/LianYi233/Trans-DAT)] `Band-Wise Spatial Attention Module`
-
 
 - **DT-DBW:** Zhao, Lin, Ouyang, Er, Tang, Jingjie, et al.[IJRS](https://www.tandfonline.com/journals/tres20), <b>2023</b>  
     "Domain transfer and difference-aware band weighting for object tracking in hyperspectral videos."  
@@ -280,16 +289,20 @@
 ## **Hyperspectral Tracking Dataset**
 > **HOTC2020:** F. Xiong, J. Zhou, J. Chanussot, W. Charle.  
   "Material Based Object Tracking in Hyperspectral Videos."  
-  [[paper](https://arxiv.org/pdf/1809.07845.pdf)][[project](https://www.hsitracking.com/hot2020/)]
+  [[paper](https://arxiv.org/pdf/1809.07845.pdf)][[project](https://www.hsitracking.com/hot2020/)]  
+>**Download Link:**  [[Baidu Yunpan](https://pan.baidu.com/s/1Q817cHMUS1A1cFQA0wkCXQ) Access code: 2020] 
 >
 > **HOTC2022:** J. Zhou, F. Xiong, J. Chanussot, P. Ghamisi, Y. Zhong, W. Charle.  
-> [[project](https://www.hsitracking.com/hot2022/)]
-> 
+> [[project](https://www.hsitracking.com/hot2022/)]   
+>**Download Link:** [[Google Drive](https://drive.google.com/drive/folders/10YZu_wMvYsnJ6y6GO72jgSrjA-24HIam)] || [[Baidu Yunpan](https://pan.baidu.com/s/1VmB2YKB6vNm05WDTMxq5wA) Access code: 2022] 
+>
 > **HOTC2023:** J. Zhou, F. Xiong, H. Q. Luong, M. Zahiri, W. Charle, Y. Zhong, P. Ghamisi, J. Chanussot.  
-> [[project](https://www.hsitracking.com/hot2023/)]
+> [[project](https://www.hsitracking.com/hot2023/)]   
+> **Download Link:** [[Google Drive](https://drive.google.com/drive/u/1/folders/1IJryO7fdkthOr9kvCS6-EwdW_sXHoUyh)] || [[Baidu Yunpan](https://pan.baidu.com/s/1xn8gsA1b8RpBcMNs5IVQxA) Access code: 2023] 
 > 
 >**HOTC2024:** J. Zhou, F. Xiong, H. Q. Luong, M. Zahiri,R. Muszynski, W. Charle, Y. Zhong, P. Ghamisi, J. Chanussot.  
-[[project](https://www.hsitracking.com/)]
+[[project](https://www.hsitracking.com/)]   
+**Download Link:** [[Google Drive](https://drive.google.com/drive/folders/1xM7YC53bCozn-f1qC-nzTCUgJxJozVTL)] || [[Baidu Yunpan](https://pan.baidu.com/share/init?surl=S4BU4djPUJVcl6X76WUx3A) Access code: 4u60] || [[Dropbox](https://www.dropbox.com/scl/fo/863n1bvr3cuxtkke8sjwn/ABpmWVf3RgqCN4qqbyC7SgU?rlkey=u5ey9kjpb7x62g7hnctm3t6mk&e=1&st=9snavdi4&dl=0)]
 
 >**MUST** Haolin Qin, Tingfa Xu†, Tianhao Li, Zhenxiang Chen, Tao Feng, Jianan Li† Beijing Institute of Technology  
 [[paper](https://arxiv.org/pdf/2503.17699)][[Dataset](https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking)] 
@@ -333,7 +346,6 @@
   | **?SiamHT**   | 0.621 | 0.878 | **BAE-Net**       | 0.606 | 0.878 |
   | **AD-SiamRPN**| 0.576 | 0.861 |**Trans-DAT**      | 0.532 | 0.769 |
   
-  
 
 ## **Tracking results on HOTC2023 Validation:**
 
@@ -344,6 +356,7 @@
 | **DaSSP-Net**     | 0.678   | 0.878   | 0.654   | 0.865     | 0.584      | 0.731     | 0.750      | 0.952   |
 | **ViPT**          | 0.668   | 0.871   | 0.641   | 0.858     | 0.563      | 0.709     | 0.748      | 0.950   |
 | **?VP-HOT**       | 0.667   | 0.877   | 0.667   | 0.895     | 0.540      | 0.709     | 0.715      | 0.910   |
+| **HOPL**          |	0.645   |	0.848   |	0.641   |	0.855     |	0.441      | 	0.558    |	0.728     |	0.945   |
 | **HyTracker**     | 0.644   | 0.847   | 0.684   | 0.900     | 0.510      | 0.663     | 0.634      | 0.832   |
 | **SSTtrack**      | 0.626   | 0.818   | 0.657   | 0.872     | 0.400      | 0.499     | 0.660      | 0.854   |
 | **SiamCAT**       | 0.605   | 0.838   | 0.596   | 0.826     | 0.479      | 0.665     | 0.665      | 0.920   |
@@ -366,6 +379,7 @@
 | **Spectraltrack+**| 0.602   | 0.758   | 0.551   | 0.703     | 0.531      | 0.673     | 0.763      | 0.937   |
 | **Helios**        | 0.577   | 0.728   | 0.570   | 0.724     | 0.469      | 0.598     | 0.664      | 0.824   |
 | **ViPT**          | 0.576   | 0.739   | 0.547   | 0.716     | 0.503      | 0.650     | 0.691      | 0.851   |
+| **UBSTrack**      |	0.576   |	0.718   |	0.534   |	0.681     |	0.496      | 0.627 	   | 0.725      |	0.861   |
 | **HyTracker**     | 0.536   | 0.692   | 0.488   | 0.654     | 0.431      | 0.573     | 0.713      | 0.858   |
 | **MMF-Net**       | 0.527   | 0.683   | 0.488   | 0.645     | 0.395      | 0.521     | 0.701      | 0.875   |
 | **SSTTtrack**     | 0.491   | 0.616   | 0.386   | 0.482     | 0.512      | 0.659     | 0.712      | 0.888   |
