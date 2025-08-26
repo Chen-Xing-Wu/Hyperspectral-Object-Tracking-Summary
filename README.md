@@ -212,8 +212,8 @@
 ## [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76)
 
 - **COALT**  YeWang,MingyangMa,GeZhang, et al. <b>2025</b>  
-"Hyperspectral Tracker with Constrained Object Adaptive Learning and Trajectory Construction"
-[[paper](https://ieeexplore.ieee.org/abstract/document/11078392)][[code](https://github.com/PING-CHUANG/COALT)]
+"Hyperspectral Tracker with Constrained Object Adaptive Learning and Trajectory Construction"  
+[[paper](https://ieeexplore.ieee.org/abstract/document/11078392)][[code](https://github.com/PING-CHUANG/COALT)] `pixel-level object constrained spectral prompt, temporal sequence trajectory prompt,ALPEFT`
 
 - **SP-HST** Gao L, Chen L, Jiang Y, et al.  <b>2025</b>   
 "Hyperspectral Object Tracking with Spectral Information Prompt"  
