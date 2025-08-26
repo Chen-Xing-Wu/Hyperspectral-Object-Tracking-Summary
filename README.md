@@ -89,7 +89,7 @@
   [[paper](https://ieeexplore.ieee.org/abstract/document/10904928)] `spatial-spectral histogram, low-rank-temporal constraint`  
 
 - **UBSTrack：** Islam M A, Zhou J, Xing W, et al. <b>2025</b>  
-"UBSTrack: Unified Band Selection and Multi-Model Ensemble for Hyperspectral Object Tracking" 
+"UBSTrack: Unified Band Selection and Multi-Model Ensemble for Hyperspectral Object Tracking"   
 [[paper](https://ieeexplore.ieee.org/abstract/document/11007116)][[results](https://github.com/aamin0102/UBSTrack/)]  `local and global attention-based band selection, Detector`    
 
 ### 2024
@@ -209,6 +209,20 @@
   "A Spectral-Spatial Transformer Fusion Method for Hyperspectral Video Tracking"  
   [[paper](https://www.mdpi.com/2072-4292/15/7/1735)]  `Spatial and Spectral Feature branch, based TransT`
 
+## [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76)
+
+- **COALT**  YeWang,MingyangMa,GeZhang, et al. <b>2025</b>  
+"Hyperspectral Tracker with Constrained Object Adaptive Learning and Trajectory Construction"
+[[paper](https://ieeexplore.ieee.org/abstract/document/11078392)][[code](https://github.com/PING-CHUANG/COALT)]
+
+- **SP-HST** Gao L, Chen L, Jiang Y, et al.  <b>2025</b>   
+"Hyperspectral Object Tracking with Spectral Information Prompt"  
+[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11029092)][[code](https://github.com/lgao001/SP-HST)] `Spectral Prompt`
+
+- **Trans-DAT:** Y. Wu, L. Jiao, X. Liu, et al. <b>2024</b>  
+  "Domain Adaptation-aware Transformer for Hyperspectral Object Tracking."  
+  [[paper](https://ieeexplore.ieee.org/document/10491347)] [[code](https://github.com/LianYi233/Trans-DAT)] `Band-Wise Spatial Attention Module`
+
 ## [Arxiv](https://arxiv.org/)
 - **HyA-T** 
 "Hyperspectral Adapter for Object Tracking based on Hyperspectral Video"
@@ -228,12 +242,11 @@
 - **DaSSP-Net:** Li Z, Xiong F, Lu J, et al. [PR](https://www.sciencedirect.com/journal/pattern-recognition), <b>2025</b>  
   "Multi-domain universal representation learning for hyperspectral object tracking"  
   [[paper](https://www.sciencedirect.com/science/article/pii/S0031320325000494)] [[code](https://github.com/hscv/DaSSP-Net)] `Domain-specific information, Prompt Learning`
-- **HOPL** Zhang L, Yao R, Zhang Y, et al. [ACM TOMM](https://dl.acm.org/journal/tomm),b>2025</b>   
+- **HOPL** Zhang L, Yao R, Zhang Y, et al. [ACM TOMM](https://dl.acm.org/journal/tomm),<b>2025</b>   
 "Historical Object-Aware Prompt Learning for Universal Hyperspectral Object Tracking"
 [[paper](https://dl.acm.org/doi/pdf/10.1145/3736581)][[results](https://github.com/rayyao/HOPL)] `Historical Prompt`   
-- **SP-HST** Gao L, Chen L, Jiang Y, et al. [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), <b>2025</b>   
-"Hyperspectral Object Tracking with Spectral Information Prompt"    
-[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11029092)][[code](https://github.com/lgao001/SP-HST)] `Spectral Prompt`
+  
+
 - **SASU-Net:** Zhao D, Zhang H, Huang K, et al. [ESA](https://www.sciencedirect.com/journal/expert-systems-with-applications), <b>2025</b>  
 "Hyperspectral video tracker based on spectral adaptive aggregation weighting and scale updating"  
   [[paper](https://www.sciencedirect.com/science/article/pii/S0957417425003434)] [[code](https://github.com/CodeMANz11/SASUNet)] `Spectral prior mask, SV`
@@ -243,10 +256,6 @@
 - **SENSE:** Chen, Yuzeng, Yuan, Qiangqiang, et al.[Information Fusion](https://www.sciencedirect.com/journal/information-fusion), <b>2024</b>  
   "SENSE: Hyperspectral Video Object Tracker via Fusing Material and Motion Cues."  
   [[paper](https://www.sciencedirect.com/science/article/pii/S1566253524001738)] [[code](https://github.com/YZCU/SENSE)] `Spectral-spatial self-expression, Differential-Common Feature Mining, Motion awareness`
-
-- **Trans-DAT:** Y. Wu, L. Jiao, X. Liu, et al. [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76), <b>2024</b>  
-  "Domain Adaptation-aware Transformer for Hyperspectral Object Tracking."  
-  [[paper](https://ieeexplore.ieee.org/document/10491347)] [[code](https://github.com/LianYi233/Trans-DAT)] `Band-Wise Spatial Attention Module`
 
 - **DT-DBW:** Zhao, Lin, Ouyang, Er, Tang, Jingjie, et al.[IJRS](https://www.tandfonline.com/journals/tres20), <b>2023</b>  
     "Domain transfer and difference-aware band weighting for object tracking in hyperspectral videos."  
