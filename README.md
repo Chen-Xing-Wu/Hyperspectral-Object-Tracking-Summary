@@ -54,6 +54,10 @@
   [[paper](https://ieeexplore.ieee.org/document/10205483)] [[code](https://github.com/laisimiao/ViPT)]`Prompt learning`
 
 
+## NeurIPS 
+- **MMOT** Tianhao Li, Tingfa Xu, Ying Wang,et al. <b>2025</b>  
+"MMOT: The First Challenging Benchmark for Drone-based Multispectral Multi-Object Tracking"
+[[paper](https://arxiv.org/pdf/2510.12565)][[code](https://github.com/Annzstbl/MMOT)] `Drone-based, Multispectral(8),MOT`
 
 ## IEEE Transaction
 ## [TIP](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
@@ -211,6 +215,10 @@
 
 ## [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76)
 
+- **HyperTrack** Yuedong Tan, Wenfang Sun, Jingyuan L, et al. <b>2025</b>  
+"HyperTrack: A Unified Network for Hyperspectral Video Object Tracking"  
+[[paper](https://ieeexplore.ieee.org/abstract/document/11131287)][[code](https://github.com/supertyd/HyperTrack)]
+
 - **COALT**  YeWang,MingyangMa,GeZhang, et al. <b>2025</b>  
 "Hyperspectral Tracker with Constrained Object Adaptive Learning and Trajectory Construction"  
 [[paper](https://ieeexplore.ieee.org/abstract/document/11078392)][[code](https://github.com/PING-CHUANG/COALT)] `pixel-level object constrained spectral prompt, temporal sequence trajectory prompt,ALPEFT`
@@ -223,9 +231,24 @@
   "Domain Adaptation-aware Transformer for Hyperspectral Object Tracking."  
   [[paper](https://ieeexplore.ieee.org/document/10491347)] [[code](https://github.com/LianYi233/Trans-DAT)] `Band-Wise Spatial Attention Module`
 
+## [PR](https://www.sciencedirect.com/journal/pattern-recognition)
+
+- **HyA-T:** Long Gao, Yunhe Zhang, Langkun Chen et al. <b>2025</b>  
+"Domain adapter for visual object tracking based on hyperspectral video"  
+[[paper](https://www.sciencedirect.com/science/article/pii/S0031320325009574)] `Spectral information injects input, vit's self-attention.`
+
+- **DaSSP-Net:** Li Z, Xiong F, Lu J, et al. <b>2025</b>  
+  "Multi-domain universal representation learning for hyperspectral object tracking"  
+  [[paper](https://www.sciencedirect.com/science/article/pii/S0031320325000494)] [[code](https://github.com/hscv/DaSSP-Net)] `Domain-specific information, Prompt Learning`
+
 ## [Arxiv](https://arxiv.org/)
-- **HyA-T** 
-"Hyperspectral Adapter for Object Tracking based on Hyperspectral Video"
+- **MSITrack:**Tao Feng, Tingfa Xu, Haolin Qin, et al. <b>2025</b>  
+"MSITrack: A Challenging Benchmark for Multispectral Single Object Tracking"
+[[paper](https://arxiv.org/pdf/2510.06619)][[datasets](https://github.com/Fengtao191/MSITrack)]
+
+- **HyMamba:** Long Gao, Yunhe Zhang, Yan Jiang, et al.<b>2025</b>  
+"Hyperspectral Mamba for Hyperspectral Object Tracking"
+[[paper](https://arxiv.org/pdf/2509.08265?)] `Architechture Similar HyA-T, SSM`
 
 - **BihoT:** Wang H, Li W, Xia X G. <b>2024</b>  
   "A Large-Scale Dataset and Benchmark for Hyperspectral Camouflaged Object Tracking."   
@@ -239,13 +262,10 @@
 - **ProFiT:** Chen Y, Yuan Q, Tang Y, et al. [ISPRS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing) , <b>2025</b>   
 "ProFiT: A prompt-guided frequency-aware filtering and template-enhanced interaction framework for hyperspectral video tracking"  
 [[paper](https://www.sciencedirect.com/science/article/pii/S0924271625001893)] [[code](https://github.com/YZCU/ProFiT)] `Frequency-aware filtering`  
-- **DaSSP-Net:** Li Z, Xiong F, Lu J, et al. [PR](https://www.sciencedirect.com/journal/pattern-recognition), <b>2025</b>  
-  "Multi-domain universal representation learning for hyperspectral object tracking"  
-  [[paper](https://www.sciencedirect.com/science/article/pii/S0031320325000494)] [[code](https://github.com/hscv/DaSSP-Net)] `Domain-specific information, Prompt Learning`
+
 - **HOPL** Zhang L, Yao R, Zhang Y, et al. [ACM TOMM](https://dl.acm.org/journal/tomm),<b>2025</b>   
 "Historical Object-Aware Prompt Learning for Universal Hyperspectral Object Tracking"
 [[paper](https://dl.acm.org/doi/pdf/10.1145/3736581)][[results](https://github.com/rayyao/HOPL)] `Historical Prompt`   
-  
 
 - **SASU-Net:** Zhao D, Zhang H, Huang K, et al. [ESA](https://www.sciencedirect.com/journal/expert-systems-with-applications), <b>2025</b>  
 "Hyperspectral video tracker based on spectral adaptive aggregation weighting and scale updating"  
@@ -313,8 +333,14 @@
 [[project](https://www.hsitracking.com/)]   
 **Download Link:** [[Google Drive](https://drive.google.com/drive/folders/1xM7YC53bCozn-f1qC-nzTCUgJxJozVTL)] || [[Baidu Yunpan](https://pan.baidu.com/share/init?surl=S4BU4djPUJVcl6X76WUx3A) Access code: 4u60] || [[Dropbox](https://www.dropbox.com/scl/fo/863n1bvr3cuxtkke8sjwn/ABpmWVf3RgqCN4qqbyC7SgU?rlkey=u5ey9kjpb7x62g7hnctm3t6mk&e=1&st=9snavdi4&dl=0)]
 
->**MUST** Haolin Qin, Tingfa Xu†, Tianhao Li, Zhenxiang Chen, Tao Feng, Jianan Li† Beijing Institute of Technology  
+>**MUST:** Haolin Qin, Tingfa Xu†, Tianhao Li, Zhenxiang Chen, Tao Feng, Jianan Li† Beijing Institute of Technology  
 [[paper](https://arxiv.org/pdf/2503.17699)][[Dataset](https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking)] 
+>
+>**MMOT:** Tianhao Li, Tingfa Xu, Ying Wang,et al. Beijing Institute of Technology 
+[[paper](https://arxiv.org/pdf/2510.12565)][[code](https://github.com/Annzstbl/MMOT)]
+>
+>**MSITrack:** Tao Feng, Tingfa Xu, Haolin Qin, et al. Beijing Institute of Technology 
+[[paper](https://arxiv.org/pdf/2510.06619)][[datasets](https://github.com/Fengtao191/MSITrack)]
 
 >**MSSOT:** L. Chen, Y. Zhao, S. G. Kong. <b>2023</b>  
 "SFA-guided Mosaic Transformer for Tracking Small Objects in Snapshot Spectral imaging"  
