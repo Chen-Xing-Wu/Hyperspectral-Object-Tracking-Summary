@@ -1,4 +1,7 @@
 # Hyperspectral Object Tracking Development
+**Mind Map Summarizing Hyperspectral Object Tracking Algorithms**
+![](HOT.png)
+
 ### :star2: Recommendations :star2:
 - **MHT:** Xiong, F., Zhou, J., Qian, Y. <b>TIP, 2020</b>  
   "Material Based Object Tracking in Hyperspectral Videos."  
@@ -64,6 +67,15 @@
 - **SpectralTrack** Chen Y, Yuan Q, Xie H, et al. <b>2025</b>   
   "Hyperspectral Video Tracking with Spectral-Spatial Fusion and Memory Enhancement"   
   [[paper](https://ieeexplore.ieee.org/abstract/document/11007172)] [[code](https://github.com/YZCU/SpectralTrack)] `FFT(Band importance), Spectral-Spatial token stage fusion`
+
+- **SSF-Net:** Wang, Hanzheng, Li, Wei, Xia, Xiang-Gen,et al. <b>2025</b>  
+  "SSF-Net: Spatial-Spectral Fusion Network with Spectral Angle Awareness for Hyperspectral Object Tracking."  
+  [[paper](https://arxiv.org/abs/2403.05852)][[code](https://github.com/hzwyhc/SSF-Net)]    `spatial-spectral feature backbone, Spectral Angle Awareness`
+
+- **SUIT:** Xiong F, Wu Z, Zhou J, et al. <b>2025</b>  
+  "SUIT: Spatial-Spectral Union-Intersection Interaction Network for Hyperspectral Object Tracking."  
+  [[paper](https://pubmed.ncbi.nlm.nih.gov/41284418/)]   `spectral interactions, spectral loss`
+
 - **SEE-Net:** Z. Li, F. Xiong, J. Zhou, et al. <b>2023</b>  
   "Learning a Deep Ensemble Network With Band Importance for Hyperspectral Object Tracking."  
   [[paper](https://ieeexplore.ieee.org/document/10128966)] [[code](https://github.com/hscv/SEE-Net)] `Spectral Self-expressive Module, Decision-level fusion`
@@ -88,6 +100,10 @@
 
 ## [TGRS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36)
 ### 2025
+- **CCTrack:** Wang Y, Mei S, Ma M, et al. <b>2025</b>  
+  "Hyperspectral Object Tracking With Context-Aware Learning and Category Consistency."  
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10928989)] `Alignment HSI & RGB, Mamba Context-Aware, CLIP`  
+
 - **SSTCF:** Xiong F, Sun Y, Zhou J, et al. <b>2025</b>  
   "Spatial-Spectral-Temporal Correlation Filter for Hyperspectral Object Tracking."  
   [[paper](https://ieeexplore.ieee.org/abstract/document/10904928)] `spatial-spectral histogram, low-rank-temporal constraint`  
@@ -146,7 +162,7 @@
 - **CBFF-Net:** Gao L, Liu P, Jiang Y, et al.  
   "CBFF-Net: A New Framework for Efficient and Accurate Hyperspectral Object Tracking."  
   [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10061231)] `Cross-band feature fusion`
-                                                                                                                                                          
+                                                                                                                                                
 
 ### Before
 - **TSCFW:** Hou Z, Li W, Zhou J, et al. <b>2022</b>  
@@ -177,12 +193,35 @@
 - **VP-HOT:** Xie S, Li J, Zhao L, et al <b>2023</b>  
   "VP-HOT: Visual Prompt for Hyperspectral Object Tracking. "  
   [[paper](https://ieeexplore.ieee.org/abstract/document/10431061)]  `Prompt learning`
+
 - **Helios:** Muszyński R, Luong H <b>2023</b>  
   "Helios: Hyperspectral Hindsight Ostracker."  
   [[paper](https://ieeexplore.ieee.org/abstract/document/10430711)][[code](https://github.com/ramusz1/helios)]  `OSTrack, BandSelection(XGBoost)`
+
+- **DHFN** Ji Y, Wu H, Liang X, et al. <b>2023</b>  
+  "DHFN: A Dual-Branch Network with Hybrid Fusion for Spatial-Aware Hyperspectral Object Tracking"  
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10431356)] `weighted fusion(band attention)`
+
+- **AHS-Net** Liu C, Zhou J, Dong Y.  <b>2023</b>  
+  "Adaptive hyperspectral siamese network in transformer"  
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10431291)] `Band Regroup`
+
+- **HSPTrack** Y. Wang, Y. Liu, M. Ma, Y. Su and S. Mei <b>2023</b>  
+  "HSPTrack: Hyperspectral Sequence Prediction Tracker with Transformers"  
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10431033)] `CIE, causal Transformer`
+
+- **TrTSN** Su N, Liu H, Zhao C, et al <b>2022</b>  
+  "A Transformer-Based Three-Branch Siamese Network For Hyperspectral Object Tracking"  
+  [[paper](https://ieeexplore.ieee.org/abstract/document/9955082)] `Siamese, Transformer fusion`
+
+- **SSATFN** Wang Y, Liu Y, Zhang G, et al. <b>2022</b>  
+"Spectral-Spatial-Aware Transformer Fusion Network For Hyperspectral Object Tracking"  
+[[paper](https://ieeexplore.ieee.org/abstract/document/9955100)] `Siamese, Transformer fusion`
+
 - **SST-Net:** Z. Li, X. Ye, F. Xiong, et al. <b>2021</b>  
   "Spectral-Spatial-Temporal Attention Network for Hyperspectral Tracking."  
   [[paper](https://ieeexplore.ieee.org/document/9484032)] `VITAL, Spatial(Conv)-Spectral(BAE)-Temporal(RNN)`
+
 - **HA-Net:** Z. Liu, X. Wang, M. Shu, et al. <b>2021</b>  
   "An Anchor-Free Siamese Target Tracking Network for Hyperspectral Video."  
   [[paper](https://ieeexplore.ieee.org/document/9483958)] [[result](https://github.com/zhenliuzhenqi/HOT)]
@@ -190,12 +229,14 @@
   "Multi-Features Integration based Hyperspectral Videos Tracker"  
   [[paper](https://www.ieee-whispers.com/wp-content/uploads/2021/03/WHISPERS_2021_paper_53.pdf)] `Dimension Reduction + 3D HOG, , Adaptive weights`
 
-
-
 ## [Remote Sensing](https://www.mdpi.com/journal/remotesensing)
+- **SPTrack:** Guo G, Li Z, An W, et al.  <b>2024</b>  
+  "SPTrack: Spectral Similarity Prompt Learning for Hyperspectral Object Tracking."  
+  [[paper](https://www.mdpi.com/2072-4292/16/16/2975)] `spectral matching map, featture complenmentary prompter`
+
 - **AD-SiamRPN:** S Wang, K Qian, J Shen, et al. <b>2023</b>  
   "Anti-Deformation Object Tracking via an Improved Siamese Region Proposal Network on Hyperspectral Videos."  
-  [[paper](https://www.mdpi.com/2072-4292/15/7/1731)] [[code](https://github.com/yusenwsq/AD-SiamRPN)] `Anti-Deformation`
+  [[paper](https://www.mdpi.com/2072-4292/15/7/1731)] [[code](https://github.com/yusenwsq/AD-SiamRPN)] `Band Selection(joint entropy)，Transfer Learning`
   
 - **TMTNet:** C Zhao, H Liu, N Su, et al. <b>2023</b>  
   "A Transformer-Based Multimodality Information Transfer Network for Hyperspectral Object Tracking."  
@@ -213,11 +254,19 @@
   "A Spectral-Spatial Transformer Fusion Method for Hyperspectral Video Tracking"  
   [[paper](https://www.mdpi.com/2072-4292/15/7/1735)]  `Spatial and Spectral Feature branch, based TransT`
 
+- **SSDT-Net:** Lei J, Liu P, Xie W, et al. <b>2022</b>  
+  "Spatial–spectral cross-correlation embedded dual-transfer network for object tracking using hyperspectral videos"  
+  [[paper](https://www.mdpi.com/2072-4292/14/15/3512)]  `transfer learning, spectral weighted fusion`
+
+- **DC-HVT:** Zhao D, Cao J, Zhu X, et al. <b>2022</b>  
+  "Hyperspectral Video Target Tracking Based on Deep Edge Convolution Feature and Improved Context Filter"  
+  [[paper](https://www.mdpi.com/2072-4292/14/24/6219)]  `deep edge convolution feature, PCA+resnet`
+
 ## [TCSVT](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76)
 
 - **HyperTrack** Yuedong Tan, Wenfang Sun, Jingyuan L, et al. <b>2025</b>  
 "HyperTrack: A Unified Network for Hyperspectral Video Object Tracking"  
-[[paper](https://ieeexplore.ieee.org/abstract/document/11131287)][[code](https://github.com/supertyd/HyperTrack)]
+[[paper](https://ieeexplore.ieee.org/abstract/document/11131287)][[code](https://github.com/supertyd/HyperTrack)] `unified framework for VIS&RedNIR&NIR`
 
 - **COALT**  YeWang,MingyangMa,GeZhang, et al. <b>2025</b>  
 "Hyperspectral Tracker with Constrained Object Adaptive Learning and Trajectory Construction"  
@@ -225,7 +274,7 @@
 
 - **SP-HST** Gao L, Chen L, Jiang Y, et al.  <b>2025</b>   
 "Hyperspectral Object Tracking with Spectral Information Prompt"  
-[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11029092)][[code](https://github.com/lgao001/SP-HST)] `Spectral Prompt`
+[[paper](https://ieeexplore.ieee.org/abstract/document/11029092)][[code](https://github.com/lgao001/SP-HST)] `OSTrack, band regroup, spectral prompt branch`
 
 - **Trans-DAT:** Y. Wu, L. Jiao, X. Liu, et al. <b>2024</b>  
   "Domain Adaptation-aware Transformer for Hyperspectral Object Tracking."  
@@ -254,9 +303,6 @@
   "A Large-Scale Dataset and Benchmark for Hyperspectral Camouflaged Object Tracking."   
   [[paper](https://arxiv.org/pdf/2408.12232)] `Benchmark Dataset`
 
-- **SSF-Net:** Wang, Hanzheng, Li, Wei, Xia, Xiang-Gen,et al. <b>2024</b>  
-  "SSF-Net: Spatial-Spectral Fusion Network with Spectral Angle Awareness for Hyperspectral Object Tracking."  
-  [[paper](https://arxiv.org/abs/2403.05852)]    `Spectral Angle Awareness`
 
 ## Others
 - **ProFiT:** Chen Y, Yuan Q, Tang Y, et al. [ISPRS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing) , <b>2025</b>   
@@ -270,18 +316,25 @@
 - **SASU-Net:** Zhao D, Zhang H, Huang K, et al. [ESA](https://www.sciencedirect.com/journal/expert-systems-with-applications), <b>2025</b>  
 "Hyperspectral video tracker based on spectral adaptive aggregation weighting and scale updating"  
   [[paper](https://www.sciencedirect.com/science/article/pii/S0957417425003434)] [[code](https://github.com/CodeMANz11/SASUNet)] `Spectral prior mask, SV`
+
 - **SSTtrack:** Chen, Yuzeng, Yuan, Qiangqiang, et al.[Information Fusion](https://www.sciencedirect.com/journal/information-fusion), <b>2024</b>  
   "SSTtrack: A Unified Hyperspectral Video Tracking Framework Via Modeling Spectral-Spatial-Temporal Conditions."  
   [[paper](https://www.sciencedirect.com/science/article/pii/S1566253524004366)][[code](https://github.com/YZCU/SSTtrack)] `Multi-Modal Generation Adapter, Spectral-Spatial, Temporal Adapter`
+
 - **SENSE:** Chen, Yuzeng, Yuan, Qiangqiang, et al.[Information Fusion](https://www.sciencedirect.com/journal/information-fusion), <b>2024</b>  
   "SENSE: Hyperspectral Video Object Tracker via Fusing Material and Motion Cues."  
   [[paper](https://www.sciencedirect.com/science/article/pii/S1566253524001738)] [[code](https://github.com/YZCU/SENSE)] `Spectral-spatial self-expression, Differential-Common Feature Mining, Motion awareness`
+
+- **HSATrack:** Yu S, Ni J, Fu S, et al. [Sensors](https://www.mdpi.com/), <b>2024</b>  
+  "Hyperspectral attention network for object tracking"   
+  [[paper](https://www.mdpi.com/1424-8220/24/19/6178)] `hyperspectral backbone`
+
 
 - **DT-DBW:** Zhao, Lin, Ouyang, Er, Tang, Jingjie, et al.[IJRS](https://www.tandfonline.com/journals/tres20), <b>2023</b>  
     "Domain transfer and difference-aware band weighting for object tracking in hyperspectral videos."  
     [[paper](https://www.tandfonline.com/doi/full/10.1080/01431161.2023.2173034)] `Domain Transfer(feature distribution), Difference-aware band weight`
 
-- **HVT:** Zhao, D., Zhu, X. G., Zhang, Z., et al. [Signal Processing](https://www.sciencedirect.com/journal/signal-processing), <b>2023</b>  
+- **SMC:** Zhao, D., Zhu, X. G., Zhang, Z., et al. [Signal Processing](https://www.sciencedirect.com/journal/signal-processing), <b>2023</b>  
 "Hyperspectral video target tracking based on pixel-wise spectral matching reduction and deep spectral cascading texture features."  
 [[paper](https://www.sciencedirect.com/science/article/pii/S016516842300107X#aep-article-footnote-id1)]   `focus IV, PSMR(segment the target and background), Deep-SVT, GoogleNet`
 
@@ -297,9 +350,13 @@
 "SFA-guided mosaic transformer for tracking small objects in snapshot spectral imaging."  
 [[paper](https://www.sciencedirect.com/science/article/pii/S0924271623002551)] [[code](https://github.com/Chenlulu1993/SMT)] `Datesets {small objects}`
 
-- **MSVT:** Chen L, Zhao Y, Chan J C W, et al. [ISPRS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing), <b>2022</b>  
+- **TrFTNet:** Liu H, Su N, Zhao C, et al. [IGARSS](https://ieeexplore.ieee.org/xpl/conhome/10281394/proceeding), <b>2023</b>  
+  "An Attention-Guided Matching Association Network for Hyperspectral and RGB Fusion Tracking."   
+  [[paper](https://ieeexplore.ieee.org/abstract/document/10281530)] `HSI+RGB`
+
+- **HOMG:** Chen L, Zhao Y, Chan J C W, et al. [ISPRS](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing), <b>2022</b>  
   "Histograms of oriented mosaic gradients for snapshot spectral image description."  
-  [[paper](https://www.sciencedirect.com/science/article/pii/S0924271621002860)] [[code](https://github.com/polwork/HOMG)]  `Datasets snapshot`
+  [[paper](https://www.sciencedirect.com/science/article/pii/S0924271621002860)] [[code](https://github.com/polwork/HOMG)]  `Datasets snapshot, mosaic spectral images, Histograms of oriented mosaic gradients`
 
 - **SiamF** Z. Li, F. Xiong, J. Zhou, et al. [ICASSP](https://ieeexplore.ieee.org/xpl/conhome/9745891/proceeding), <b>2022</b>  
   "Material-Guided Siamese Fusion Network for Hyperspectral Object Tracking"  
@@ -397,7 +454,7 @@
 | **SiamCAT**       | 0.605   | 0.838   | 0.596   | 0.826     | 0.479      | 0.665     | 0.665      | 0.920   |
 | **MMF_Net**       | 0.595   | 0.797   | 0.613   | 0.815     | 0.324      | 0.410     | 0.666      | 0.910   |
 | **SPIRIT**        | 0.585   | 0.786   | 0.608   | 0.820     | 0.381      | 0.501     | 0.623      | 0.838   |
-| **TransDAT**      | 0.573   | 0.782   | 0.511   | 0.721     | 0.535      | 0.715     | 0.683      | 0.900   |
+| **Trans-DAT**      | 0.573   | 0.782   | 0.511   | 0.721     | 0.535      | 0.715     | 0.683      | 0.900   |
 | **SENSE**         | 0.559   | 0.766   | 0.608   | 0.826     | 0.394      | 0.500     | 0.545      | 0.771   |
 | **PHTrack**       | 0.544   | 0.754   | 0.581   | 0.795     | 0.414      | 0.515     | 0.534      | 0.780   |
 | **SEE-Net**       | 0.519   | 0.763   | 0.593   | 0.813     | 0.359      | 0.491     | 0.465      | 0.785   |
